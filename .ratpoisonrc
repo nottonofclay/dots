@@ -1,0 +1,19 @@
+# keybindings
+escape Super_L
+bind t exec alacritty
+bind w exec firefox
+bind h focusleft
+bind j focusdown
+bind k focusup
+bind l focusright
+
+# borders
+set border 0
+set defborder 0
+set barpadding 0 0 0 0
+set padding 0 0 0 0
+unmanage firefox_esr
+exec xprop -remove _MOTIF_WM_HINTS
+
+# font
+font DejaVuSansMNerdFont-Bold
